@@ -3,6 +3,7 @@ body {
 	background-image: url(../images/home/top_gradient.png);
 	background-repeat: repeat-x;
 	background-color: #172B36;
+	overflow: hidden;
 }
 #wrapper .slider-wrapper {
 	height: 346px;

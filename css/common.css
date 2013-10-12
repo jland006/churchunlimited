@@ -35,7 +35,7 @@ body {
 	background-color: #FFFFFF;
 	height: 477px;
 	width: 559px;
-	overflow: auto;
+	overflow: hidden;
 	padding-top: 15px;
 	padding-right: 20px;
 	padding-bottom: 10px;

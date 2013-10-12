@@ -15,7 +15,7 @@
 <meta name="description" content="Join Pastor James Moffatt and the Church Unlimited family and worship our unlimited God. This bible based and Christ centered Church is a diverse family and united people with a vision to helping people find their unlimited potential in the will and purpose of God at Church Unlimited in Indio, CA." />
 <meta name="author" content="Church Unlimited" />
 <meta name="robots" content="all" />
-<meta name="viewport" content="width=960" />
+<meta name="viewport" content="width=1024" />
 <meta property="og:title" content="Church Unlimited" />
 <meta property="og:url" content="http://www.churchunlimited.tv" />
 <meta property="og:description" content="Join Pastor James Moffatt and the Church Unlimited family and worship our unlimited God. This bible based and Christ centered Church is a diverse family and united people with a vision to helping people find their unlimited potential in the will and purpose of God at Church Unlimited in Indio, CA." />
@@ -33,15 +33,47 @@
 <link href="css/index.css" rel="stylesheet" type="text/css" media="screen">
 <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.pack.js"></script>
 <script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 <script type="text/javascript">
 $(function() {
 	$('.marquee').marquee({
 		speed: 12000
 	});
+	
+	$("html").niceScroll({
+		cursorcolor: '#FF9635',
+		cursoropacitymax: .9,
+		cursorwidth: '10px',
+		cursorborder: '1px solid #172B36'
+	});
 });
+</script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+		pauseTime: 7000,
+		directionNav: false,
+		controlNav: false,
+		pauseOnHover: true
+    });
+	
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39030012-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 </head>
 <!--/sphider_noindex-->
@@ -67,6 +99,7 @@ $(function() {
 						<div>
 							<a href="welcome.html">Welcome</a>
 							<a href="aboutus.html">Our Pastor</a>
+                            <a href="http://www.pcg.org/" target="_blank">Pentecostal Church of God</a>
 							<a href="ministries.html">Ministries</a>
 							<a href="mission.html">Our Mission</a>
 							<a href="believe.html">What We Believe</a>
@@ -89,17 +122,18 @@ $(function() {
 			</div>           
         </div>
         <!--/sphider_noindex-->
-        
         <div class="slider-wrapper">
             <div id="slider" class="nivoSlider">
                 <img src="images/home/ChurchUnlimited_banner_1.jpg" alt="Church Unlimited" />
+        		<!-- <a href="http://www.socalmen.org/" target="_blank"><img src="images/home/MensAdvance_banner.jpg" alt="Men's Advance" /></a> -->
+				<img src="images/home/YouthMinistry_banner.jpg" alt="Youth Ministry" />
                 <a href="http://www.lifetreecafe.com" target="_blank"><img src="images/home/Lifetree_banner2.jpg" alt="Lifetree Cafe" /></a>
 				<a href="contact.html"><img src="images/home/MusiciansAreNeeded_banner.jpg" alt="Musicians Are Needed" /></a>
-                <!-- <a href="http://www.huntermariano.com/"><img src="images/home/HunterMariano_banner_easter.jpg" alt="Hunter Mariano" /></a> -->
-                <!-- <img src="images/home/ChooseJoy_banner.jpg" alt="Choose Joy" /> -->
-                <!-- <img src="images/home/sleeping_giant_banner.jpg" alt="Sleeping Giants" /> -->
             </div>
         </div>
+        
+        
+
         
         <div id="marquee_container">
             <div class="marquee">
@@ -160,33 +194,5 @@ $(function() {
         </div>
 
     </div>
-
-
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider({
-		pauseTime: 7000,
-		directionNav: false,
-		controlNav: false,
-		pauseOnHover: false
-    });
-	
-});
-</script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39030012-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
 </body>
 </html>

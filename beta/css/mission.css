@@ -1,0 +1,7 @@
+@charset "utf-8";
+#scroller #wrapper #content_left #wblock {
+	background-image: url(../images/mission/OurMission.png);
+	height: 466px;
+	width: 559px;
+	background-position: center center;
+}

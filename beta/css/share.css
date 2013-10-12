@@ -1,0 +1,59 @@
+@charset "utf-8";
+#scroller #wrapper #content_left #wblock #share {
+	background-image: url(../images/share/Share_1.png);
+	height: 171px;
+	width: 558px;
+}
+#scroller #wrapper #content_left #wblock #fullName {
+	width: 350px;
+	margin-right: 5px;
+}
+#scroller #wrapper #content_left #wblock #emailFrom {
+	width: 250px;
+	margin-right: 5px;
+	float: left;
+}
+#scroller #wrapper #content_left #wblock #message {
+	margin-right: 5px;
+	width: 350px;
+	resize: none;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
+	float: left;
+}
+#scroller #wrapper #content_left #wblock #inputs {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#scroller #wrapper #content_left #wblock #inputs td
+{
+padding-bottom:10px;
+}
+#scroller #wrapper #content_left #wblock #share_prayer {
+	background-image: url(../images/share/share-your-prayer_button.png);
+	height: 38px;
+	width: 210px;
+	cursor: pointer;
+}
+.error {
+	height: 12px;
+	width: 12px;
+	float: left;
+	background-image: url(../images/share/error_icon.png);
+}
+#errorMessage {
+	color: #FF0000;
+	display: none;
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+#outreach_banner {
+	background-image: url(../images/outreach/outreach_banner.png);
+	height: 171px;
+	width: 559px;
+}
+.outreach_text {
+	padding-top: 7px;
+	line-height: 20px;
+	width: 490px;
+	font-size: 15px;
+	color: rgb(70,70,70);
+	font-weight: normal;
+}
+.outreach_text span {
+	font-size: 15px;
+	color: rgb(70,70,70);
+	font-weight: bold;
+}
+.outreach_text a {
+	font-size: 15px;
+	color: rgb(0,100,200);
+	font-weight: normal;
+	text-decoration: none;
+}
+.outreach_text a:hover {
+	text-decoration: underline;
+}
+.outreach_block {
+	height: 146px;
+	width: 500px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.big_outreach_block {
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.big_outreach_block p {
+	width: 350px !important;
+}
+#jumpstart_pic {
+	background-image: url(../images/outreach/backpack.png);
+	float: left;
+	height: 146px;
+	width: 133px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+#food_drive_pic {
+	background-image: url(../images/outreach/food.png);
+	float: left;
+	height: 146px;
+	width: 133px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+#gascell {
+	vertical-align: top;
+}
+#gas_giveaway_pic {
+	background-image: url(../images/outreach/free_gas.png);
+	height: 146px;
+	width: 133px;
+	padding-right: 5px;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+}
+#align_next_sections {
+	padding-bottom: 90px;
+}

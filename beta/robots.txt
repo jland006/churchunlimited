@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /cgi-bin
+Disallow: /sphider
+Disallow: /images
+Disallow: /wow_book
+Disallow: /nivo-slider
+
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/2803886.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove

@@ -1,0 +1,19 @@
+@charset "utf-8";
+#scroller #wrapper #content_left .heading {
+	font-size: 1.6em;
+	letter-spacing: .1em;
+	color: #FF9635;
+	margin-top: 15px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+#scroller #wrapper #content_left #wblock #gbar {
+	background-image: url(../images/connect/grey_line.png);
+	height: 1px;
+	width: 544px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.black {
+	font-size: 16px;
+	font-weight: bold;
+}

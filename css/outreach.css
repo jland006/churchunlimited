@@ -3,6 +3,8 @@
 	background-image: url(../images/outreach/outreach_banner.png);
 	height: 171px;
 	width: 559px;
+	padding: 0px;
+	margin: 0px;
 }
 .outreach_text {
 	padding-top: 7px;
@@ -31,11 +33,13 @@
 	width: 500px;
 	margin-top: 5px;
 	margin-left: 10px;
+	padding: 0px;
 }
 .big_outreach_block {
 	height: 250px;
 	margin-top: 10px;
 	margin-left: 10px;
+	padding: 0px;
 }
 .big_outreach_block p {
 	width: 350px !important;
@@ -45,6 +49,8 @@
 	float: left;
 	height: 146px;
 	width: 133px;
+	margin: 0px;
+	padding: 0px;
 	padding-right: 10px;
 	background-repeat: no-repeat;
 }
@@ -53,6 +59,8 @@
 	float: left;
 	height: 146px;
 	width: 133px;
+	margin: 0px;
+	padding: 0px;
 	padding-right: 10px;
 	background-repeat: no-repeat;
 }

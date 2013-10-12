@@ -1,0 +1,85 @@
+@charset "utf-8";
+#leadership_banner {
+	background-image: url(../images/ministries/leadership_banner.png);
+	height: 170px;
+	width: 557px;
+	padding: 0px;
+	margin: 0px;
+}
+#wblock .heading {
+	font-size: 1.6em;
+	letter-spacing: .05em;
+	font-weight: normal;
+	color: rgb(0,145,195);
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	margin-top: 20px;
+	margin-left: 5px;
+}
+#wblock .bar {
+	background-image: url(../images/ministries/long_blue_bar.png);
+	height: 2px;
+	width: 557px;
+	margin-top: 10px;
+	margin-bottom: 7px;
+}
+#ministry_block {
+	height: 60px;
+	width: 400px;
+	margin-top: 1px;
+	margin-left: 10px;
+	padding: 0px;
+}
+#ministry_text_header {
+	font-size: 15px;
+	color: rgb(70,70,70);
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#ministry_text_info {
+	font-size: 15px;
+	color: rgb(70,70,70);
+	font-weight: normal;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#mens_ministry {
+	background-image: url(../images/ministries/mensministry_text.png);
+	float: left;
+	height: 60px;
+	width: 151px;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+#womens_ministry {
+	background-image: url(../images/ministries/womensministry_text.png);
+	float: left;
+	height: 60px;
+	width: 151px;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+#youth_ministry {
+	background-image: url(../images/ministries/youthministry_text.png);
+	float: left;
+	height: 60px;
+	width: 151px;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+#childrens_ministry {
+	background-image: url(../images/ministries/childrensministry_text.png);
+	float: left;
+	height: 60px;
+	width: 151px;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+#wblock {
+	background: url(../images/about/pastor_photo_box_cut.jpg) right no-repeat;
+}
+#about_text_header {
+	font-size: 26px;
+	letter-spacing: 0.05em;
+	color: rgb(60,60,60);
+	font-weight: normal;
+	text-shadow: 0 0px .04em rgba(60,60,60,1);
+	line-height: 1.0em;
+}
+#about_text_header span {
+	font-size: 26px;
+	color: rgb(60,60,60);
+	font-weight: bold;
+}
+.about_box {
+	margin-top: 20px;
+	font-size: 16px;
+	color: rgb(60,60,60);
+	font-weight: normal;
+	line-height: 1.3em;
+	text-shadow: 0 0px 1px rgba(60,60,60,0.6);
+	width: 221px;
+}

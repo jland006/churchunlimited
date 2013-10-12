@@ -22,7 +22,7 @@
 	zoom: 1;
 }
 
-/* marker classes */
+/* marker class */
 .wowbook-left{}
 .wowbook-right{}
 .wowbook-disabled{}
@@ -44,14 +44,14 @@
 .wowbook-shadow-clipper {
 	position : absolute;
 	overflow : hidden;
-	z-index : 999;
+	z-index : 999; /* 1 a menos do que o verso da pagina sendo foldada */
 	zoom: 1;
 }
 
 .wowbook-shadow-container {
 	display  : none;
 	position : absolute;
-	z-index  : 999;
+	z-index  : 999; /* 1 a menos do que o verso da pagina sendo foldada */
 	zoom: 1;
 }
 
@@ -90,7 +90,7 @@
 
 .wowbook-fold-gradient-container {
 	position : absolute;
-	z-index  : 1001;
+	z-index  : 1001; /* 1 a mais que o verso da pagina sendo foldada */
 }
 
 .wowbook-gutter-shadow {
@@ -115,7 +115,7 @@
 	background : #888;
 	position   : absolute;
 	top        : 0;
-	z-index    : 999;
+	z-index    : 999; /* 1 a menos do que o verso da pagina sendo foldada */
 }
 
 .wowbook-page-number {

@@ -4,10 +4,10 @@ body {
 	background-repeat: repeat-x;
 	background-color: #172B36;
 }
-}#wrapper .slider-wrapper {
+#wrapper .slider-wrapper {
 	height: 346px;
 }
-#wrapper #marquee {
+#wrapper #marquee_container {
 	background-image: url(../images/home/text_feed_bar.png);
 	height: 25px;
 	width: 932px;
@@ -16,7 +16,11 @@ body {
 	padding-bottom: 7px;
 	padding-left: 14px;
 }
-#wrapper #marquee span {
+
+#wrapper #marquee_container .marquee {
+	overflow: hidden;
+}
+#wrapper #marquee_container .marquee span {
 	font-size: 18px;
 }
 #wrapper #believe {

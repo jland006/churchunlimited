@@ -1,0 +1,31 @@
+@charset "utf-8";
+#scroller #wrapper #content_left #wblock {
+	overflow: hidden;
+}
+#scroller #wrapper #content_left #wblock #believe {
+	background-image: url(../images/believe/whatwebelieve_banner_1.png);
+	height: 170px;
+	width: 558px;
+}
+#scroller #wrapper #content_left #wblock #mybook {
+	margin-top: 10px;
+}
+#scroller #wrapper #content_left #wblock #mybook p {
+	font-weight: normal;
+}
+#scroller #wrapper #content_left #wblock #mybook #front {
+	background-image: url(../images/believe/book_cover.jpg);
+	height: 290px;
+	width: 279px;
+}
+#scroller #wrapper #content_left #wblock #mybook #back {
+	background-image: url(../images/believe/book_back.jpg);
+	height: 290px;
+	width: 279px;
+}
+#scroller #wrapper #content_left #wblock #mybook .page {
+	background-image: url(../images/believe/book_inside_page_1.jpg);
+	height: 270px;
+	width: 259px;
+	padding: 10px;
+}

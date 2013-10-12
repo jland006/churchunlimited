@@ -1,0 +1,71 @@
+@charset "utf-8";
+#scroller #wrapper #content_left .heading {
+	font-size: 1.6em;
+	letter-spacing: .1em;
+	color: #FF9635;
+	margin-top: 15px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+#scroller #wrapper #content_left #wblock #gbar {
+	background-image: url(../images/connect/grey_line.png);
+	height: 1px;
+	width: 544px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#scroller #wrapper #content_left #wblock .gbox {
+	background-color: #F1F1F1;
+	height: 135px;
+	width: 487px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.grey{
+	color: #959595;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+.black {
+	font-size: 16px;
+	font-weight: bold;
+}
+#scroller #wrapper #content_left #wblock .gbox .person {
+	background-image: url(../images/connect/little_person_icon.png);
+	float: left;
+	height: 32px;
+	width: 28px;
+}
+#scroller #wrapper #content_left #wblock .gbox .bubble {
+	background-image: url(../images/connect/talk_bubble.png);
+	height: 81px;
+	width: 455px;
+	float: right;
+}
+#scroller #wrapper #content_left #wblock .gbox .bubble .txt_box {
+	height: 75px;
+	margin-left: 15px;
+	width: 440px;
+	margin-top: 2px;
+	outline: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow: auto;
+	resize: none;
+	font-weight: normal;
+}
+#scroller #wrapper #content_left #wblock .gbox .post {
+	background-image: url(../images/connect/post_button.png);
+	float: right;
+	height: 24px;
+	width: 43px;
+	margin-top: 5px;
+}

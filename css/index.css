@@ -1,0 +1,107 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/home/top_gradient.png);
+	background-repeat: repeat-x;
+	background-color: #172B36;
+}
+}#wrapper .slider-wrapper {
+	height: 346px;
+}
+#wrapper #marquee {
+	background-image: url(../images/home/text_feed_bar.png);
+	height: 25px;
+	width: 932px;
+	padding-top: 7px;
+	padding-right: 14px;
+	padding-bottom: 7px;
+	padding-left: 14px;
+}
+#wrapper #marquee span {
+	font-size: 18px;
+}
+#wrapper #believe {
+	background-image: url(../images/home/what_we_believe_1.png);
+	height: 138px;
+	width: 344px;
+}
+#wrapper #vision div {
+	font-size: 16px;
+	width: 120px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#wrapper #donate {
+	background-image: url(../images/home/donate_text_1.jpg);
+	height: 138px;
+	width: 314px;
+}
+#wrapper #connect {
+	background-image: url(../images/home/connect_text_1.jpg);
+	height: 138px;
+	width: 302px;
+}
+#wrapper #braid {
+	background-image: url(../images/home/braid.png);
+	height: 12px;
+	width: 960px;
+	background-repeat: repeat-x;
+}
+
+
+
+#wrapper #footer {
+	background-image: url(../images/home/bottom_gradient.png) !important;
+	height: 303px !important;
+	width: 880px;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+#wrapper #footer #services {
+	height: 233px;
+	width: 188px;
+}
+
+
+#wrapper #services #services_logo {
+	background-image: url(../images/home/services.png);
+	height: 27px;
+	width: 167px;
+	margin-bottom: 20px;
+}
+#wrapper #services #address_box {
+	height: 42px;
+	width: 176px;
+	padding-top: 4px;
+	padding-left: 6px;
+	margin-top: 30px;
+	background-color: #F89631;
+}
+#wrapper #services p, span {
+	font-size: 16px;
+}
+#wrapper #footer #location #location_logo {
+	background-image: url(../images/home/location_information.png);
+	height: 20px;
+	width: 318px;
+	margin-bottom: 20px;
+}
+#wrapper #footer #location #map {
+	background-image: url(../images/home/map_logo.png);
+	height: 192px;
+	width: 331px;
+}
+#wrapper #footer #prayer {
+	background-image: url(../images/home/prayer_requests.png);
+	height: 231px;
+	width: 312px;
+	margin-bottom: 10px;
+}
+#wrapper #footer .bar {
+	background-image: url(../images/home/bottom_vert_stripe.png);
+	height: 233px;
+	width: 2px;
+	margin-right: 11px;
+	margin-left: 11px;
+}

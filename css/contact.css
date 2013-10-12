@@ -1,0 +1,123 @@
+@charset "utf-8";
+#content_left #contact_banner {
+	background-image: url(../images/contact/contact_banner_no_text.png);
+	height: 171px;
+	width: 558px;
+}
+#content_left #info_lead {
+	color: #FFFFFF;
+	font-size: 12px;
+	letter-spacing: .17em;
+	margin-bottom: 3px;
+	padding-top: 80px;
+	padding-right: 30px;
+	text-decoration: none;
+	text-align: right;
+}
+#content_left .info {
+	color: #FFFFFF;
+	font-size: 12px;
+	letter-spacing: .17em;
+	margin-bottom: 3px;
+	padding-right: 30px;
+	text-decoration: none;
+	text-align: right;
+}
+#content_left #sender_div {
+	margin-top: 20px;
+	height: 220px;
+	width: 545px;
+}
+#content_left #sender_text_div {
+	height: 200px;
+	width: 100px;
+	padding: 10px;
+	float: left;
+}
+#content_left #sender_text_div .sender_text {
+	padding-bottom: 15px;
+	color: rgb(0,0,0);
+	font-weight: bolder;
+	letter-spacing: .1em;
+	text-align: right;
+}
+#content_left #sender_input_div {
+	height: 200px;
+	width: 400px;
+	padding: 10px;
+	float: right;
+}
+#content_left #sender_input_div .sender_text {
+	height: 20px;
+	margin-bottom: 10px;
+	width: 380px;
+}
+#content_left #sender_input_div #senderFullName {
+	width: 350px;
+	float: left;
+}
+#content_left #sender_input_div #senderPhone {
+	width: 250px;
+	float: left;
+}
+#content_left #sender_input_div #senderEmail {
+	width: 250px;
+	float: left;
+}
+#content_left #sender_input_div #senderMessage {
+	resize: none;
+	float: left;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
+}
+#content_left #sender_input_div #nameAsterisk
+{
+	margin-left: 360px;
+	height: 12px;
+	width: 12px;
+	background-image: url(../images/contact/error_icon.png);
+	visibility: hidden;
+}
+#content_left #sender_input_div #phoneAsterisk
+{
+	margin-left: 260px;
+	height: 12px;
+	width: 12px;
+	background-image: url(../images/contact/error_icon.png);
+	visibility: hidden;
+}
+#content_left #sender_input_div #emailAsterisk
+{
+	margin-left: 260px;
+	height: 12px;
+	width: 12px;
+	background-image: url(../images/contact/error_icon.png);
+	visibility: hidden;
+}
+#content_left #sender_input_div #messageAsterisk
+{
+	vertical-align: top;
+	margin-left: 360px;
+	height: 12px;
+	width: 12px;
+	background-image: url(../images/contact/error_icon.png);
+	visibility: hidden;
+}
+#content_left #errorMessage {
+	margin-left: 135px;
+	color: red;
+	visibility: hidden;
+}
+#content_left #send_message {
+	background-image: url(../images/contact/send_message_button.png);
+	height: 36px;
+	width: 166px;
+	margin-left: 135px;
+	cursor: pointer;
+}

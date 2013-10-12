@@ -1,0 +1,12 @@
+@charset "utf-8";
+#scroller #wrapper #content_left #wblock #welcome {
+	background-image: url(../images/welcome/welcome_banner_1.png);
+	background-repeat: no-repeat;
+	height: 170px;
+	width: 558px;
+}
+#scroller #wrapper #content_left #wblock p {
+	font-size: 16px;
+	margin-top: 20px;
+	font-weight: normal;
+}
